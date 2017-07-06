@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fuweichen.titlescroll.MainActivity">
+
+    <android.support.design.widget.TabLayout
+        android:visibility="gone"
+        android:id="@+id/designTabLayout"
+        android:layout_width="match_parent"
+        android:background="@color/title_bg"
+        app:tabIndicatorColor="@color/tab_indicator"
+        app:tabTextColor="@color/tab_default_color"
+        app:tabSelectedTextColor="@color/tab_select_color"
+        android:layout_height="44dp">
+
+    </android.support.design.widget.TabLayout>
+
+    <fuweichen.titlescroll.CustomHorizontalScrollView
+        android:id="@+id/customHorizontalScrollView"
+        android:layout_height="44dp"
+        android:layout_width="match_parent">
+
+    </fuweichen.titlescroll.CustomHorizontalScrollView>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_below="@+id/customHorizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+
+</RelativeLayout>

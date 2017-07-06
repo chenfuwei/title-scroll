@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_padding_left">10dp</dimen>
+    <dimen name="item_padding_right">10dp</dimen>
+    <dimen name="item_indicate_height">2dp</dimen>
+</resources>

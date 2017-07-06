@@ -273,8 +273,8 @@ public class CustomHorizontalScrollView extends HorizontalScrollView implements 
             scrollState = SCROLLSTATE.NONE;
             nSaveSelectPosition = nCurSelectPosition;
             nScrollPosition = getScrollX();
-//            curItemIndicateLeft = curItemScorllLeft;
-            setIndicateStatus();
+            curItemIndicateLeft = curItemScorllLeft;
+//            setIndicateStatus();
             invalidate();
         }
         bScrolling = state != ViewPager.SCROLL_STATE_IDLE;

@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    		<RelativeLayout 
+    		      android:layout_width="match_parent"
+    			  android:layout_height="match_parent"
+    			  android:orientation="vertical"
+    		    >
+    		    <!--
+    		      PagerSlidingTabStrip 一定配合ViewPagr进行使用
+    		    -->
+  					<fuweichen.titlescroll.PagerSlidingTabStrip
+			             android:id="@+id/tabs"
+			             android:layout_width="match_parent"
+			             android:layout_height="@dimen/dp144"
+			             android:focusable="true"
+			             android:focusableInTouchMode="true"
+			             />
+			         <android.support.v4.view.ViewPager
+			             android:id="@+id/viewPager"
+			             android:layout_width="match_parent"
+			             android:layout_height="wrap_content"
+			             android:layout_alignParentLeft="true"
+			             android:layout_marginTop="@dimen/dp149"
+			             android:layout_below="@+id/tabs"
+			             >
+			         </android.support.v4.view.ViewPager>
+			</RelativeLayout>	
+</LinearLayout>

@@ -8,4 +8,13 @@
     <color name="tab_indicator">#e15e5c</color>
     <color name="tab_default_color">#b4b4b4</color>
     <color name="tab_select_color">#bc7779</color>
+
+
+    <!-- PagerSlidingTabStrip所需的颜色 -->
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="light_gray_text">#949494</color>
+    <color name="common_list_divider">#dfdfdf</color>
+    <color name="red">#fa3e36</color>
+    <color name="heise">#000000</color>
+    <color name="huise">#CDCDCD</color>
 </resources>
